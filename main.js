@@ -45,7 +45,7 @@ for (var i = 0; i < emojis.length; i++) {
           document.querySelectorAll(".boxOpen")[0].classList.remove("boxOpen");
 
           if (document.querySelectorAll(".boxMatch").length == emojis.length) {
-            alert("WAA GUULEYSATAY 🤝");
+            // alert("WAA GUULEYSATAY 🤝");
             swal.fire({
                 title: "Success",
                 text: "Congratulations 🎈 You have successfully Win ",
